@@ -1,0 +1,557 @@
+/* most used comments */
+/*does not do anything that i know of */
+/* needs to be added to every element/attribute 
+  *border: dotted .5pt;
+*/
+
+/* created 9/4/2019 
+updated: 10.22.19
+updated:
+updated:
+*/
+
+
+
+
+html {
+     font-size: 14pt;
+     font-family: cambria;
+     margin: 0; /*does not do anything that i know of */
+     padding: 0;
+     border: 0;
+     width: 100%;
+     height: 100%;
+     text-decoration-line: none; /*does not do anything that i know of */
+    /*  border: dotted .5pt; */ /* needs to be added to every element/attribute */
+   
+    position: relative;
+   }
+   
+   
+     /* ----------------------------------------------- links area ----------------------------------------- */
+      /* ------------------- links have to be put in cascade order to function appropriately ------------------ */
+     a {
+       text-decoration-line: none;
+       
+       color: rgb(231, 189, 82);
+       background-color: whitesmoke;
+       opacity: 0.85;
+
+       
+
+       
+       
+       
+     }
+   
+       
+       a:visited {
+         color: rgba(38, 118, 192, 0.849);
+       }
+   
+       body a:hover {
+         color: goldenrod;
+       
+       }
+
+       aside a {
+         background: transparent;
+         border: transparent;
+       }
+
+     
+   
+         
+   
+     /* ---------------------------------------------------------------- body of text -----------------------*/
+       
+     body {
+      background-color: rgb(243, 243, 252);
+       margin: 0;
+      /*  border: dotted .5pt; */
+       color: black;
+
+      
+       
+       
+       
+       
+     }
+   
+   
+   
+       /* ------------------------------------------------------------- website header ------------------- */
+         header h1 {
+          /*  border: dotted .5pt; */
+           text-align: right;
+           position: relative;
+           right: 20px;
+           top: -15px;
+           
+         }
+   
+   
+       /*--------------------------------------------------- nav area --------------------- */
+       nav {
+        border: rgb(12, 62, 109, 0.3) solid .2px; 
+        position: relative;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+       }
+   
+         nav h2 {
+          /*  border: dotted .5pt; */
+           
+           margin: 4px ;
+           font-size: 14pt;
+           
+           margin-right: 25px;
+           
+           
+         }
+   
+           /*nav h2 a {
+          /*  border: dotted .5pt; 
+           }*/
+       
+   
+       /* ---------------------------------------Title of novel ----------------- div novel title area --------------- */    
+      .novelheader a {
+         color: black;
+         background: none;
+        
+         position: relative;
+         z-index: 1;
+         left: 485px;
+       }
+
+       /* ----------- Page Title -------------- */
+       .articleheader a {
+         color: black;
+         position: relative;
+         top: -18px;
+         left: 470px;
+         z-index: 2;
+       }
+
+       .articlesubheader {
+         position: relative;
+         z-index: 3;
+         top: -20px;
+         left: 460px;
+       }
+   
+   
+       /* --------------------------------- links for the specific novel ----------------------- aside area --------------- */    
+       aside#sidebar {
+        /*  border: dotted .5pt; */
+        max-width: 200px; 
+        width: 20%;
+         margin-left: 10%; 
+         padding-left: 10px;
+         float: right; /* ---- might not need at all --- */
+         
+         border: black solid .3px;
+         border-radius: 25px;
+         position: sticky;
+         top: 240px;
+         right: 35px;
+         z-index: 5;
+   
+         background-color:rgb(243, 243, 252);
+         opacity: .85;
+     
+         box-shadow: .5px .5px 1px 1.5px rgb(212, 215, 219);
+   
+         
+       }
+       aside h4 {
+         margin: 5px auto 5px auto;
+       }
+
+       aside h5 {
+          
+         margin-top: 3px;
+         margin-bottom: 3px;
+         margin-left: 2px;
+         
+          font-size: 14px;
+       }
+   
+   
+       /* ---------------------------------------------- description ---------- article area --------------- */    
+       article.maintext {
+        /*  border: dotted .5pt; */ 
+        
+         width: auto;
+         height: 2220px;
+        
+         border-top: rgba(12, 62, 109, 0.5) solid .3px;
+         border-bottom:  rgb(12, 62, 109, 0.5) solid .3px;
+         position: relative;
+         margin: 0;
+        
+
+         
+
+        
+         
+   /* ------------------ main character area -----*/
+    
+          
+       }
+         article.maintext, div.novelheader h2 {
+          
+          background: whitesmoke;
+          color: black;
+          margin-top: 20px;
+
+          position: relative;
+          z-index: 1;
+          
+          
+         }
+
+    
+
+
+         div#orbbg {
+              background-color: rgba(12, 62, 109, 0.85);
+              height: 240px;
+              width: 850px;
+              position: absolute;
+              left: 100px;
+              top: 150px;
+
+              border-radius: 20px;
+              border: double rgb(252, 252, 252) 4px;
+               
+         }
+
+         img {
+           position: relative;
+           left: 103.7px;
+           top: 240px;
+           float: left;
+           border-radius: 5px;
+           border: solid black .3px;
+           box-shadow: 0px 0px 1.5px .8px rgb(95, 84, 23);
+
+         }
+         #img2 {
+          position: absolute;
+          left: 103.7px;
+          top: 767px;
+          float: left;
+          border-radius: 5px;
+          border: solid black .3px;
+          transform: rotate(180.1deg);
+         }
+
+
+         #canvas {
+          float: left; 
+          position: absolute;
+          left: 103px;
+          top: 400px;
+         
+          
+         
+
+         }
+         /*----------------quotes ------------------*/
+         
+         div.quotes {
+           position: absolute;
+           font-family: 'Economica', sans-serif;
+           font-size: 15px;
+           font-weight: regular;
+           font-style: italic;
+           text-align: center;
+         }
+
+         div.quotes#qC {
+          top: 270px;
+          left: 75px;
+          width: 200px
+         }
+         div.quotes#qR {
+          top: 280px;
+          left: 375px;
+          width: 200px;
+         }
+         div.quotes#qT {
+          top: 270px;
+          left: 678px;
+          width: 200px;
+         }
+
+         /*-------------Summary of q&s --------------------*/
+         div.summary {
+          position: absolute;
+          top: 330px;
+
+          font-size: 18px;
+          line-height: 21px;
+          text-indent: -20px;
+          text-justify: auto;
+          font-family: 'Economica', sans-serif;
+
+          width: 180px;
+         }
+         div#sC {
+          left: 100px;
+         }
+         div#sR {
+           left: 392px;
+         }
+         div#sT {
+          left: 695px;
+         }
+
+         .personalprofile {
+           position: absolute;
+           top: 570px;
+           font-size: 15px;
+           color: black;
+           
+         }
+
+         #ppC {
+           left: 175px;
+         }         
+         #ppR {
+          left: 470px;
+          width: 200px;
+         }
+         #ppT {
+           left: 775px;
+           width: 200px;
+         }
+
+
+         article.mainchar #orb1, #orb2 {
+               box-sizing: border-box; 
+               height: 200px;
+              width: 200px;
+              background-color: white;
+              opacity: 1;
+              box-shadow: 0px 0px 10px 8px whitesmoke;
+              
+              
+
+
+              border-radius: 50%;
+              margin-left: 80px;
+
+              float: left;
+              position: relative;
+
+              z-index: 1;
+         }
+
+         /* ----------------- casey's profile area ----------- */
+
+         article.mainchar .casey#orb1_1, .casey#orb1_2, .casey#orb1_3, .casey#orb1_4, .casey#orb1_5, 
+         .casey#orb1_6, .casey#orb1_7, .casey#orb1_8 
+         {
+              box-sizing: border-box; 
+              height: 6px;
+              width: 6px;
+              background-color: black;
+              opacity: .5;
+             
+              
+
+
+              border-radius: 48%;
+              box-shadow: 0 0 12px 1px black;
+              
+              position: relative;
+              left: 177px;
+              top: 97px;
+               
+              z-index: 5;
+         }
+
+               .casey#orb1_2 {
+                    left: 150px;
+                    width: 3px;
+                    height: 3px;
+                    opacity: .5;
+               }
+               .casey#orb1_3 {
+                    left: 200px;
+                    width: 3px;
+                    height: 3px;
+                    opacity: .7;
+               }
+               .casey#orb1_4 {
+                    left: 170px;
+                    top: 70px;
+                    width: 3px;
+                    height: 3px;
+                    opacity: .6;
+               }
+               .casey#orb1_5 {
+                    left: 190px;
+                    top: 80px;
+                    width: 3px;
+                    height: 3px;
+                    opacity: .4;
+               }
+               .casey#orb1_6 {
+                    right: 230px;
+                    top: 105px;
+                    width: 2px;
+                    height: 2px;
+                    opacity: .8;
+               }
+               .casey#orb1_7 {
+                    left: 170px;
+                    top: 90px;
+                    width: 2px;
+                    height: 2px;
+                    opacity: .4;
+               }
+               .casey#orb1_8 {
+                    left: 180px;
+                    top: 50px;
+                    width: 2px;
+                    height: 2px;
+                    opacity: .4;
+               }
+
+
+
+         article.mainchar table {
+              float: left;
+              position: relative;
+              top: 20px;
+              left: 50px;
+
+              width: 250px;
+              
+         }
+   
+         div#caseyid {
+               float: left;    
+               position: relative;
+               left: 50px;
+               width: 300px;
+
+         }
+
+
+    
+
+         /* ------------ runa's profile ------ */
+         div#runaid {
+          float: left;    
+          position: relative;
+          left: 50px;
+          width: 300px;
+          }
+
+          /* --------- taki's profile ------ */
+          div#takiid {
+               float: left;
+               position: relative;
+               left: 50px;
+               width: 300px;
+
+          }
+            .taki#orb3 {
+              
+              background-image: radial-gradient(transparent 20px, white);
+              
+              box-shadow: 0 0 8px 5px whitesmoke;
+
+              box-sizing: border-box; 
+              height: 200px;
+             width: 200px;
+             
+             border-radius: 50%;
+             margin-left: 80px;
+
+             float: left;
+             position: relative;
+
+             z-index: 1;
+            }
+            .taki#orb3_1 {
+              
+              
+              background-color: white;
+              opacity: .55;
+              
+
+              box-sizing: border-box; 
+              height: 200px;
+              width: 200px;
+            
+              border-radius: 50%;
+              margin-left: 80px;
+              margin-top: -200px;
+              
+
+              float: left;
+              position: relative;
+              
+            
+              z-index: 2;
+            }
+           
+   
+         /* -------------- side character area ---------- */
+        
+        h4#sidechar {
+          position: relative;
+          left: 360px;
+        }
+        .sidechar {
+          position: relative;;
+          top: 550px;
+          left: 100px;
+          width: 800px;
+          height: 1000px;
+          overflow: auto;
+         
+        }
+         
+   
+   
+      
+   
+     
+   
+         h6 {
+           font-size: 14pt;
+           color: gold;
+         }
+       
+       /* -------------------------------------------------------footer area ------------------ */
+       footer {
+        /*  border: dotted .5pt; */
+         text-align: right;
+         position: relative;
+         
+         right: 20px;
+
+         color: black;
+         
+         bottom: -20px;
+         
+      
+       }
+         footer p {
+           font-size: 10pt;
+           
+           margin: 5px;
+
+         }
+   
+     

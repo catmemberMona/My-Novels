@@ -1,0 +1,139 @@
+/* based on runa's page*/
+
+
+
+html {
+  font-size: 16px;
+}
+
+
+/*
+  color options: 
+  background-color: bisque
+  background-color: antiquewhite 
+  background-color: #F2F0EA
+*/
+
+
+body {
+  background-color: #F2F0EA;
+  margin: 1.5% 1.5%;
+  text-decoration: none;
+   
+
+
+}
+
+  h1 {
+    text-align: right;
+    margin: 0 0 0 90%;
+    padding: 0 5px 0 0;
+    
+
+    
+
+
+  }
+  h1 a {
+    font-size: 90%;
+    color: rgb(231, 189, 82);
+    background-color: rgba(0, 0, 0, 0.884);
+    padding: 0 2px 0 0;
+    
+  }
+
+  a {
+    text-decoration-line: none;
+    display: block;
+    padding: 0;
+
+    
+
+  }
+
+  a:visited {
+    color: none;
+  }
+
+  a:hover {
+    color: goldenrod;
+
+  }
+
+
+  /* -----------------------------------------------------------------------------*/ 
+  nav a {
+    font-size: 110%;
+    color: rgb(231, 189, 82);
+    
+    background-color: black;
+    max-height: 40px;
+
+  }
+
+
+  nav li {
+
+    padding: 0px 30px 0px 5px;  
+    max-height: 40px;
+
+
+  }
+
+  ul {
+    list-style-type: none;
+    float: left;
+    padding: 0%;
+    max-height: 40px;
+
+  }
+
+  h2 {
+    max-height: 40px;
+    padding: 0%;
+  }
+
+  nav {
+    margin: 10px 0 0 0;
+    width: 100%;
+    max-height: 25px;
+    background-color: black;
+    float: left;
+  }
+
+  /* -----------------------------------------------------------------------------*/ 
+
+  div {
+    width: 100%;
+    text-align: left;
+    float: center;
+    font-size: 30px;
+    margin: 150px 0 0 28%;
+    
+
+
+  }
+
+  aside {
+    width: 15%;
+    text-align: left;
+    float: left;
+    margin: 5% 0 0 15%;
+    padding: 0 0 0 2px;
+    /*   */
+    border-left: dashed 2px;
+    
+
+  }
+
+  article {
+    /*   */ 
+
+    text-align: left;
+
+    width: 44%;
+
+    margin: 10% 0 0 28%;
+
+
+  }

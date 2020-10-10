@@ -1,0 +1,46 @@
+/*new format based on webnovel design and layout of phone screen layout
+created 9/12/2019
+first typed on jsbin for automatic updates for easier useage
+NEXT: maybe work on text size 
+*/
+
+body {
+  font-size: 14pt;
+  margin: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+h1 {
+  text-align: right;
+}
+
+li {
+  text-align: right;
+  list-style-type: none;
+}
+
+div h2 {
+  text-align: center;
+}
+
+aside {
+  float: right;
+  text-align: right;
+  margin-left: 30%;
+}
+
+article {
+  margin-right: 35%;
+  margin-left: 15%;
+}
+
+footer {
+  text-align: right;
+}

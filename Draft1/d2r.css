@@ -1,0 +1,240 @@
+/* most used comments */
+/*does not do anything that i know of */
+/* needs to be added to every element/attribute 
+  *border: dotted .5pt;
+*/
+
+/* created 9/4/2019 
+updated: 10.22.19
+updated:
+updated:
+*/
+
+
+
+
+html {
+  font-size: 14pt;
+  font-family: cambria;
+  margin: 0; /*does not do anything that i know of */
+  padding: 0;
+  border: 0;
+  width: 100%;
+  text-decoration-line: none; /*does not do anything that i know of */
+ /*  border: dotted .5pt; */ /* needs to be added to every element/attribute */
+
+ position: relative;
+}
+
+
+  /* ----------------------------------------------- links area ----------------------------------------- */
+   /* ------------------- links have to be put in cascade order to function appropriately ------------------ */
+  a {
+    text-decoration-line: none;
+    
+    color: rgb(231, 189, 82);
+    background-color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0px;
+    
+  }
+
+    
+    a:visited {
+      color: rgba(98, 177, 190, 0.856);
+    }
+
+    body a:hover {
+      color: goldenrod;
+    
+    }
+
+      
+
+  /* ---------------------------------------------------------------- body of text -----------------------*/
+    
+  body {
+    background-color:  grey;
+    margin: 1.5%;
+   /*  border: dotted .5pt; */
+    color: whitesmoke;
+    
+    
+  }
+
+
+
+    /* ------------------------------------------------------------- website header ------------------- */
+      header h1 {
+       /*  border: dotted .5pt; */
+        text-align: right;
+        
+      }
+
+
+    /*--------------------------------------------------- nav area --------------------- */
+    /*nav {
+     /*  border: dotted .5pt; 
+    }*/
+
+      nav h2 {
+       /*  border: dotted .5pt; */
+        
+        margin: 4px auto;
+        font-size: 14pt;
+      }
+
+        /*nav h2 a {
+       /*  border: dotted .5pt; 
+        }*/
+    
+
+    /* ---------------------------------------Title of novel ----------------- div novel title area --------------- */    
+   .novelheader a {
+      color: white;
+      background: none;
+      margin-left: 15%;
+ 
+
+    }
+
+
+    /* --------------------------------- links for the specific novel ----------------------- aside area --------------- */    
+    aside#sidebar {
+     /*  border: dotted .5pt; */
+      width: 20%;
+      margin-left: 10%; 
+      padding-left: 3px;
+      float: right; /* ---- might not need at all --- */
+      
+      border-radius: 5%;
+      position: absolute;
+      top: 248px;
+      right: 25px;
+      z-index: 5;
+
+      background-color: black;
+      opacity: .7;
+  
+      box-shadow: rgb(125, 140, 180) 2px;
+
+      
+    }
+
+
+    /* ---------------------------------------------- description ---------- article area --------------- */    
+    article {
+     /*  border: dotted .5pt; */ 
+      width: auto;
+      
+
+ 
+
+    }
+      article.maintext, div.novelheader h2 {
+        
+        
+        background-color: rgba(98, 177, 190, 0.4);
+        position: relative;
+        z-index: 1;
+
+        
+   
+      }
+
+ 
+
+      
+      .mainchar table {
+       
+      
+        padding-left: 15px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        background-color: rgba(98, 177, 190, 0.0);
+        border: solid rgba(98, 177, 190, 0.0);
+
+        position: relative;
+        opacity: .8;
+      
+
+        margin-left: 50px;
+
+
+
+      
+      }
+      
+
+      .mainchar th {
+        border: solid 50px;
+        border-color: transparent;
+        border-top: none;
+        border-bottom: none;
+        border-top-left-radius: 45%;
+        border-top-right-radius: 45%;
+
+        background-color: whitesmoke;
+        color: black;
+
+        padding-top: 40px;
+
+        font-size: 10pt;
+
+
+
+        
+      }
+      td {
+        border: solid 20px;
+        border-color: transparent;
+        border-top: none;
+        border-bottom: none;
+
+        background-color: whitesmoke;
+        color: black;
+
+        
+      }
+
+
+      td:hover {
+        background-color: black;
+        opacity: .9;
+        color: whitesmoke;
+
+       
+      }
+
+
+   
+
+      article p {
+        white-space: pre-line;
+        white-space: pre-wrap;
+        padding: 1.5%;
+        font-size: 16pt;
+        background: black;
+
+      }
+
+      h6 {
+        font-size: 14pt;
+        color: gold;
+      }
+    
+    /* -------------------------------------------------------footer area ------------------ */
+    footer {
+     /*  border: dotted .5pt; */
+      text-align: right;
+      position: absolute;
+      bottom: -150px;
+      right: 20px;
+   
+    }
+      footer p {
+        font-size: 10pt;
+      }
+
+    

@@ -1,0 +1,22 @@
+
+
+
+.mainchar table {
+     background: white;
+     border: solid white;
+     
+}
+
+th, td.lastrow {
+   border: white solid 10px;
+     border-top: none;
+     border-bottom: none;
+     border-collapse: collapse;
+     
+     border-radius: 10%;
+
+     background-color: black;
+     color: white;
+   
+     
+}
